@@ -1,0 +1,45 @@
+MASS START
+----------------------------
+Registrants::NameLastFirst_c
+BibNumber
+BibColor
+Competitions:CompetitorClass
+Clubs::ClubAbbreviation
+MissesBout1Announcer_c
+MissesBout2Announcer_c
+MissesBout3Announcer_c
+MissesBout4Announcer_c
+Lap_1_c
+Lap_2_c
+Lap_3_c
+Lap_4_c
+Lap t
+TimeFinalBehindLeader_c
+FinalTime_c
+Percentage of winninf for display
+Status
+Start_List_Time_Calc'd_c
+gToggle_Elapsed_Time_or_Lap_Time
+
+RELAY
+----------------------------
+Registrants::NameLastFirst_c
+BibNumber
+BibColor
+    c_Printed_Competition_Name
+    Team_Data::Team_Name
+MissesBout1Announcer_c
+MissesBout2Announcer_c
+MissesBout3Announcer_c
+MissesBout4Announcer_c
+Lap_1_c
+Lap_2_c
+Lap_3_c
+Lap_4_c
+Pemalty_Time_Parsed_c
+TimeFinalBehindLeader_c
+FinalTime_c
+Rank
+Status
+Start_List_Time_Calc'd_c
+gToggle_Elapsed_Time_or_Lap_Time

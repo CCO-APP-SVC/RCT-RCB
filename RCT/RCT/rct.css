@@ -1,0 +1,284 @@
+﻿html
+{
+    
+}
+
+body
+{
+    background-color: #C0C0C0;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.FormTableTitle
+{
+    background-color: #B7B7B7;
+    font-family: Verdana, Arial;
+    font-size: 10px;
+    font-weight: normal;    
+}
+
+.FormTextBox
+{
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    color: Black;
+    background-color: #E6E6E6;
+    border: 1px solid #B7B7B7;
+}
+
+.FormTextBoxResultsAdd
+{
+    font-family: Verdana, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: Black;
+    background-color: #E6E6E6;
+    border: 1px solid #B7B7B7;
+    height: 30px;
+}
+
+.TopMenuTexts
+{
+    Color: Black;
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    font-weight: normal;    
+}
+
+
+.TXTTitreLogin
+{
+    COLOR: #333333;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+}
+
+.TXTNormal
+{
+    COLOR: Black;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: normal;
+}
+
+.TXTNormalRed
+{
+    COLOR: Red;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: normal;
+}
+
+.TXTLogin
+{
+    COLOR: #333333;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+}
+
+.TXTLoginMsg
+{
+    color: #FF0000;
+    font-family: verdana,helvetica,arial,serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.TXTResultsTitles
+{
+    COLOR: #000000;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    text-align:center;
+}
+
+.TXTResultsBlack
+{
+    COLOR: Black;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+    text-align:center;
+}
+
+    .TXTResultsBlackTiny
+    {
+        COLOR: Black;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 8px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        vertical-align: middle;
+    }
+
+.TXTResultsRed
+{
+    COLOR: Red;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+    text-align:center;
+}
+
+    .TXTResultsRedTiny
+    {
+        COLOR: Red;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 8px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        vertical-align: middle;
+    }
+
+.TXTResultsBlue
+{
+    COLOR: Blue;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+    text-align:center;
+}
+
+    .TXTResultsBlueTiny
+    {
+        COLOR: Blue;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 8px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        vertical-align: middle;
+    }
+
+.TXTResultsGreen
+{
+    COLOR: Green;
+    FONT-FAMILY: verdana,helvetica,arial,serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+    text-align:center;
+}
+
+    .TXTResultsGreenTiny
+    {
+        COLOR: Green;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 8px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        vertical-align: middle;
+    }
+
+    .TXTResultsBlackT
+    {
+        COLOR: Black;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 11px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        background-color: #d7d7d7;
+    }
+    
+    .TXTResultsRedT
+    {
+        COLOR: Red;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 11px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        background-color: #d7d7d7;
+    }
+    
+    .TXTResultsBlueT
+    {
+        COLOR: Blue;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 11px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        background-color: #d7d7d7;
+    }
+    
+    .TXTResultsGreenT
+    {
+        COLOR: Green;
+        FONT-FAMILY: verdana,helvetica,arial,serif;
+        FONT-SIZE: 11px;
+        FONT-WEIGHT: normal;
+        text-align:center;
+        background-color: #d7d7d7;
+    }
+
+
+.TXTBoxes
+{
+    font-family: verdana,helvetica,arial,serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+    color: #0000FF;
+    border-style: solid;
+    border-color: #333333;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.CMDForm
+{
+    font-family: verdana,helvetica,arial,serif;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #FFA363;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #333333;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.LineVertico1PX
+{
+    width: 1px;
+    background-color: black;
+}
+
+.LineVertico2PX
+{
+    width: 2px;
+    background-color: black;
+}
+
+.LineHorizo1PX
+{
+    height: 1px;
+    background-color: black;     
+}
+
+.LineHorizo2PX
+{
+    height: 2px;
+    background-color: black;     
+}
+
+.LineVertico1PXRed
+{
+    width: 1px;
+    background-color: red;
+}
+
+.LineHorizo1PXRed
+{
+    height: 1px;
+    background-color: red;     
+}

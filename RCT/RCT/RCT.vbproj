@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{06698446-D18C-4D5E-B0FF-C6B3C05BE14A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RCT</RootNamespace>
+    <AssemblyName>RCT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RCT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RCT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="admin_regions.aspx" />
+    <Content Include="admin_regions_add.aspx" />
+    <Content Include="admin_regions_edit.aspx" />
+    <Content Include="admin_users.aspx" />
+    <Content Include="admin_user_add.aspx" />
+    <Content Include="admin_user_edit.aspx" />
+    <Content Include="calendar_icon.png" />
+    <Content Include="Create Database script\db_rct_20121014.sql" />
+    <Content Include="datepickercontrol.css" />
+    <Content Include="datepickercontrol.js" />
+    <Content Include="default.aspx" />
+    <Content Include="events.aspx" />
+    <Content Include="event_add.aspx" />
+    <Content Include="event_competition_add.aspx" />
+    <Content Include="event_competition_chapter_edit.aspx" />
+    <Content Include="event_competition_edit.aspx" />
+    <Content Include="event_edit.aspx" />
+    <Content Include="event_finalists_selection.aspx" />
+    <Content Include="event_profile.aspx" />
+    <Content Include="event_regions.aspx" />
+    <Content Include="event_region_teams.aspx" />
+    <Content Include="event_region_team_add.aspx" />
+    <Content Include="event_region_team_competitor_add.aspx" />
+    <Content Include="event_region_team_competitor_edit.aspx" />
+    <Content Include="event_region_team_edit.aspx" />
+    <Content Include="event_search.aspx" />
+    <Content Include="functions.aspx" />
+    <Content Include="inc_bottom.aspx" />
+    <Content Include="inc_menu_admin.aspx" />
+    <Content Include="inc_menu_events.aspx" />
+    <Content Include="inc_menu_results.aspx" />
+    <Content Include="inc_top.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="pics\add.png" />
+    <Content Include="pics\blue.png" />
+    <Content Include="pics\bottomside.png" />
+    <Content Include="pics\check.png" />
+    <Content Include="pics\delete.png" />
+    <Content Include="pics\edit.jpg" />
+    <Content Include="pics\flags\Alberta.gif" />
+    <Content Include="pics\flags\Alberta.svg" />
+    <Content Include="pics\flags\AlbertaWind.gif" />
+    <Content Include="pics\flags\BritishColumbia.gif" />
+    <Content Include="pics\flags\BritishColumbia.svg" />
+    <Content Include="pics\flags\BritishColumbiaWind.gif" />
+    <Content Include="pics\flags\Canada.svg" />
+    <Content Include="pics\flags\Manitoba.gif" />
+    <Content Include="pics\flags\Manitoba.svg" />
+    <Content Include="pics\flags\ManitobaWind.gif" />
+    <Content Include="pics\flags\NewBrunswick.gif" />
+    <Content Include="pics\flags\NewBrunswick.svg" />
+    <Content Include="pics\flags\NewBrunswickWind.gif" />
+    <Content Include="pics\flags\Newfoundland.gif" />
+    <Content Include="pics\flags\Newfoundland.svg" />
+    <Content Include="pics\flags\NewfoundlandWind.gif" />
+    <Content Include="pics\flags\NorthenRegions.gif" />
+    <Content Include="pics\flags\NorthwestTerritories.gif" />
+    <Content Include="pics\flags\NorthwestTerritories.svg" />
+    <Content Include="pics\flags\NorthwestTerritoriesWind.gif" />
+    <Content Include="pics\flags\NovaScotia.gif" />
+    <Content Include="pics\flags\NovaScotia.svg" />
+    <Content Include="pics\flags\NovaScotiaWind.gif" />
+    <Content Include="pics\flags\Nunavut.gif" />
+    <Content Include="pics\flags\Nunavut.svg" />
+    <Content Include="pics\flags\NunavutWind.gif" />
+    <Content Include="pics\flags\Ontario.gif" />
+    <Content Include="pics\flags\Ontario.svg" />
+    <Content Include="pics\flags\OntarioWind.gif" />
+    <Content Include="pics\flags\PrinceEdwardIsland.gif" />
+    <Content Include="pics\flags\PrinceEdwardIsland.svg" />
+    <Content Include="pics\flags\PrinceEdwardIslandWind.gif" />
+    <Content Include="pics\flags\Quebec.gif" />
+    <Content Include="pics\flags\Quebec.svg" />
+    <Content Include="pics\flags\QuebecWind.gif" />
+    <Content Include="pics\flags\Saskatchewan.gif" />
+    <Content Include="pics\flags\Saskatchewan.svg" />
+    <Content Include="pics\flags\SaskatchewanWind.gif" />
+    <Content Include="pics\flags\Yukon.gif" />
+    <Content Include="pics\flags\Yukon.svg" />
+    <Content Include="pics\flags\YukonWind.gif" />
+    <Content Include="pics\leftcornerbottom.png" />
+    <Content Include="pics\leftcornertop.png" />
+    <Content Include="pics\leftside.png" />
+    <Content Include="pics\ok.jpg" />
+    <Content Include="pics\rightcornerbottom.png" />
+    <Content Include="pics\rightcornertop.png" />
+    <Content Include="pics\rightside.png" />
+    <Content Include="pics\save.png" />
+    <Content Include="pics\search.jpg" />
+    <Content Include="pics\topside.png" />
+    <Content Include="pics\undo.png" />
+    <Content Include="publictxtfiles\public_results_eid-38_competitors_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-38_composite_teams_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-38_unit_teams_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_competitors_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_composite_teams_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_regions_ranking.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_alberta_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_britishcolumbia_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_manitoba_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_newbunswick_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_newfoundlandandlabrador_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_northenregions_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_novascotia_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_ontario_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_princeedwardisland_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_quebec_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_region_saskatchewan_individual.html" />
+    <Content Include="publictxtfiles\public_results_eid-39_unit_teams_ranking.html" />
+    <Content Include="rct.css" />
+    <Content Include="rct.js" />
+    <Content Include="results.aspx" />
+    <Content Include="results_add.aspx" />
+    <Content Include="results_add_final.aspx" />
+    <Content Include="results_competitors_ranking.aspx" />
+    <Content Include="results_consult.aspx" />
+    <Content Include="results_final.aspx" />
+    <Content Include="results_import.aspx" />
+    <Content Include="results_master.aspx" />
+    <Content Include="results_regions_ranking.aspx" />
+    <Content Include="results_region_individual.aspx" />
+    <Content Include="results_region_team.aspx" />
+    <Content Include="results_search.aspx" />
+    <Content Include="results_teams_ranking.aspx" />
+    <Content Include="result_edit.aspx" />
+    <Content Include="templates\old_template_results_competitors_ranking.html" />
+    <Content Include="templates\old_template_results_regions_ranking.html" />
+    <Content Include="templates\old_template_results_region_individual.html" />
+    <Content Include="templates\old_template_results_teams_ranking.html" />
+    <Content Include="templates\template_results_competitors_ranking.html" />
+    <Content Include="templates\template_results_competitors_ranking_line.html" />
+    <Content Include="templates\template_results_competitors_ranking_spacing.html" />
+    <Content Include="templates\template_results_final_demo.html" />
+    <Content Include="templates\template_results_final_tenpronetargets.html" />
+    <Content Include="templates\template_results_final_tenstandingtargets.html" />
+    <Content Include="templates\template_results_master.html" />
+    <Content Include="templates\template_results_public_final.html" />
+    <Content Include="templates\template_results_public_final_competitor.html" />
+    <Content Include="templates\template_results_public_final_line1px.html" />
+    <Content Include="templates\template_results_regions_ranking.html" />
+    <Content Include="templates\template_results_regions_ranking_line.html" />
+    <Content Include="templates\template_results_regions_ranking_spacing.html" />
+    <Content Include="templates\template_results_region_individual.html" />
+    <Content Include="templates\template_results_region_individual_team.html" />
+    <Content Include="templates\template_results_region_individual_team_line.html" />
+    <Content Include="templates\template_results_region_individual_team_spacing.html" />
+    <Content Include="templates\template_results_teams_ranking.html" />
+    <Content Include="templates\template_results_teams_ranking_line.html" />
+    <Content Include="templates\template_results_teams_ranking_spacing.html" />
+    <Content Include="templates\template_results_temporary_page.html" />
+    <Content Include="tests_files.aspx" />
+    <Content Include="test_public_final.aspx" />
+    <Content Include="toto.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="functions.aspx.vb">
+      <DependentUpon>functions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8120/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

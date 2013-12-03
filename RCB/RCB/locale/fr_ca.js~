@@ -1,0 +1,12 @@
+// App string localization
+Ext.namespace('BR').lang = {
+    title: 'Résultats Biab',
+    loading: 'Chargement en cours...'
+
+    // login form
+    login: {
+        username: 'Utilisateur'
+    }
+
+};
+

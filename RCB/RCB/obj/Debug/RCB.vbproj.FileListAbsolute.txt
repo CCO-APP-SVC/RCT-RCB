@@ -1,0 +1,8 @@
+D:\RCT-RCB\RCB\RCB\bin\RCB.dll
+D:\RCT-RCB\RCB\RCB\bin\RCB.pdb
+D:\RCT-RCB\RCB\RCB\bin\RCB.xml
+D:\RCT-RCB\RCB\RCB\obj\Debug\RCB.Resources.resources
+D:\RCT-RCB\RCB\RCB\obj\Debug\RCB.vbproj.GenerateResource.Cache
+D:\RCT-RCB\RCB\RCB\obj\Debug\RCB.dll
+D:\RCT-RCB\RCB\RCB\obj\Debug\RCB.xml
+D:\RCT-RCB\RCB\RCB\obj\Debug\RCB.pdb

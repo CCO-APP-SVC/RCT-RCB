@@ -1,0 +1,91 @@
+#header {
+    top: 0;
+    width: 100%;
+    height: 115px;
+    position: absolute;
+}
+
+#headerLeft {
+    background-image:url('images/logo-biathlon.png');
+    background-repeat:no-repeat;
+    height: 125px;
+    width: 600px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+#headerLeft h2 {
+    margin-left: 140px;
+    padding-top: 15px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#headerLeft p {
+    margin-left: 140px;
+    color: #000000;
+}
+
+#headerRight {
+    background-image:url('images/logo-cadets.gif');
+    background-repeat:no-repeat;
+    height: 125px;
+    width: 293px;
+    float: right;
+    margin: 20px 10px 0px 0px;
+} 
+
+#loginAs {
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+#loginAs a {
+    text-decoration: underline;
+    color: #565656;
+}
+
+#footer {
+   position:absolute;
+   bottom:10px;
+   margin-left: 15px;
+   height:10px;
+   clear: both;
+}
+
+.icon-add {
+    background-image:url('images/add.png');
+    background-repeat:no-repeat;
+    height: 16px;
+}
+
+.icon-delete {
+    background-image:url('images/delete.png');
+    background-repeat:no-repeat;
+    height: 16px;
+}
+
+.icon-edit {
+    background-image:url('images/pencil.png');
+    background-repeat:no-repeat;
+    height: 16px;
+}
+
+.icon-import {
+    background-image:url('images/table_add.png');
+    background-repeat:no-repeat;
+    height: 16px;
+}
+
+.icon-view {
+    background-image:url('images/eye.png');
+    background-repeat:no-repeat;
+    height: 16px;
+}
+
+.icon-events {
+    background-image:url('images/bullet_black.png');
+    background-repeat:no-repeat;
+    height: 16px;
+} 

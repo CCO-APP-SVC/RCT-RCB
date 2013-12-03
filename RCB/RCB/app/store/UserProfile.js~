@@ -1,0 +1,13 @@
+Ext.define('BR.store.UserRights', {
+    extend: 'Ext.data.Store',
+    model: 'BR.model.UserProfile',
+    storeId: 'UserProfileStore',
+    proxy: {
+        type: 'ajax',
+        url:'gestion/getUserProfile',
+        reader: {
+            type: 'json',
+            root: 'children'
+        }
+    }
+});
