@@ -238,7 +238,6 @@
     <Content Include="templates\template_results_temporary_page.html" />
     <Content Include="tests_files.aspx" />
     <Content Include="test_public_final.aspx" />
-    <Content Include="toto.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
